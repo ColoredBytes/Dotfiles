@@ -3,12 +3,17 @@
 
 # :link: Table of Contents
 1. [:bookmark\_tabs: Contents](#bookmark_tabs-contents)
-   1. [Windows](#windows)
-   2. [Linux](#linux)
+   1. [Linux](#linux)
+   2. [Windows](#windows)
 
 
 
  ## :bookmark_tabs: Contents
+
+### [Linux](/linux/)
+- [git_config.sh](/linux/git/git_config.sh) | Tiny script to easily setup `.gitconfig` file.
+- [Neovim Installer](/linux/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
+- [Oh-My-Posh Installer](/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
 
 ### [Windows](/windows/)
 - [Functions](/windows/PowerShell/Functions.ps1) | Functions for Windows.
@@ -16,7 +21,3 @@
 - [Neovim Install](/windows/Neovim/neovim-install.ps1) | Neovim install script for Windows using winget.
   
 
-### [Linux](/linux/)
-- [git_config.sh](/linux/git/git_config.sh) | Tiny script to easily setup `.gitconfig` file.
-- [Neovim Installer](/linux/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
-- [Oh-My-Posh Installer](/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
