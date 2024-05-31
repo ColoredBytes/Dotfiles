@@ -1,12 +1,5 @@
 
-# <div align="center">💤 Jersh's Dotfiles</div>
-
-# :link: Table of Contents
-1. [Instructions](#instructions)
-2. [:bookmark\_tabs: Contents](#bookmark_tabs-contents)
-   1. [Linux](#linux)
-   2. [MacOS](#macos)
-   3. [Windows](#windows)
+# <div align="center">💤Dotfiles</div>
 
 ## Instructions
 
