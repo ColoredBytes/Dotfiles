@@ -1,14 +1,14 @@
 
 # <div align="center">💤 Jersh's Dotfiles</div>
 
-# Table of Contents
-1. [Contents](#contents)
+# :link: Table of Contents
+1. [:bookmark\_tabs: Contents](#bookmark_tabs-contents)
    1. [Windows](#windows)
    2. [Linux](#linux)
 
 
 
- ## Contents
+ ## :bookmark_tabs: Contents
 
 ### Windows
 - [Functions.ps1](/dotfiles/windows/PowerShell/Functions.ps1) | Functions for Windows.
@@ -20,7 +20,3 @@
 - [git_config.sh](/dotfiles/linux/git/git_config.sh) | Tiny script to easily setup `.gitconfig` file.
 - [Neovim Installer](/dotfiles/linux/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
 - [Oh-My-Posh Installer](/dotfiles/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
-
-
-
-
