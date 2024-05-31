@@ -23,37 +23,10 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
 ## :bookmark_tabs: Contents
 
 ### [Linux](/linux/)
----
-- [Git Config](/linux/git/git_config.sh)  
-  - Tiny script to easily set up `.gitconfig` file.
-- [Homebrew Install](/linux/shell/homebrew-install.sh)  
-  - Script to install Homebrew and added the `PATH`to `.bashrc`
-- [Neovim Installer](/linux/neovim/neovim-install.sh)  
-  - Script to install NeoVim and copy over the NvChad config.
-- [Oh-My-Posh Installer](/linux/shell/oh-my-posh-install.sh)  
-  - Script to install oh-my-posh and move over the config for it.
+
 
 ### [MacOS](/macos/)
----
-- [Git Config](/macos/git/git_config.zsh)  
-  - Tiny script to easily set up `.gitconfig` file.
-- [Neovim Installer](/macos/neovim/neovim-install.zsh)  
-  - Script to install NeoVim and copy over the NvChad config.
-- [Homebrew Install](/macos/shell/homebrew-install.zsh)  
-  - Script to install Homebrew and add the `PATH`to `.zshrc`.
-- [Oh-My-Posh Installer](/macos/shell/oh-my-posh-install.zsh)  
-  - Script to install oh-my-posh and move over the config for it.
+
 
 ### [Windows](/windows/)
----
-- [Neovim Install](/windows/Neovim/neovim-install.ps1)
-  - Neovim Install script for Windows using winget.
-- [Git Config](/windows/Git/git_config.ps1)  
-  - Tiny script to easily set up `.gitconfig` file.
-- [Profile](/windows/PowerShell/Microsoft.PowerShell_profile.ps1)  
-  - Windows Powershell Profile, That I use.
-- [Functions](/windows/PowerShell/Functions.ps1)  
-    - Functions used in PowerShell Profile.
-- [Profile Mover](/windows/PowerShell/profile-mover.ps1)
-  - Tiny script that moves the PowerShell configs into place.
 
