@@ -19,14 +19,3 @@ git clone https://github.com/ColoredBytes/Dotfiles.git
 find /Dotfiles -type f -name "*.sh" -exec chmod +x {} \;
 find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
 ```
-
-## :bookmark_tabs: Contents
-
-### [Linux](/linux/)
-
-
-### [MacOS](/macos/)
-
-
-### [Windows](/windows/)
-
