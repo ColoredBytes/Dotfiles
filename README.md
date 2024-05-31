@@ -25,6 +25,7 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
  ## :bookmark_tabs: Contents
 
 ### [Linux](/linux/)
+---
 - [Git Config](/linux/git/git_config.sh)  
   - Tiny script to easily set up `.gitconfig` file.
 - [Homebrew Install](/linux/shell/homebrew-install.sh)  
@@ -35,6 +36,7 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
   - Script to install oh-my-posh and move over the config for it.
 
 ### [MacOS](/macos/)
+---
 - [Git Config](/macos/git/git_config.zsh)  
   - Tiny script to easily set up `.gitconfig` file.
 - [Neovim Installer](/macos/neovim/neovim-install.zsh)  
@@ -45,6 +47,7 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
   - Script to install oh-my-posh and move over the config for it.
 
 ### [Windows](/windows/)
+---
 - [Git Config](/windows/Git/git_config.ps1)  
   - Tiny script to easily set up `.gitconfig` file.
 - [Functions](/windows/PowerShell/Functions.ps1)  
