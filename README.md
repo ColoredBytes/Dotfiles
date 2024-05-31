@@ -48,13 +48,14 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
 
 ### [Windows](/windows/)
 ---
-- [Git Config](/windows/Git/git_config.ps1)  
-  - Tiny script to easily set up `.gitconfig` file.
-- [Functions](/windows/PowerShell/Functions.ps1)  
-  - Functions for Windows.
-- [PowerShell Profile](/windows/PowerShell/Microsoft.PowerShell_profile.ps1)  
-  - Windows Powershell Profile, That I use.
 - [Neovim Install](/windows/Neovim/neovim-install.ps1)
   - Neovim Install script for Windows using winget.
-  
+- [Git Config](/windows/Git/git_config.ps1)  
+  - Tiny script to easily set up `.gitconfig` file.
+- [Profile](/windows/PowerShell/Microsoft.PowerShell_profile.ps1)  
+  - Windows Powershell Profile, That I use.
+- [Functions](/windows/PowerShell/Functions.ps1)  
+    - Functions used in PowerShell Profile.
+- [Profile Mover](/windows/PowerShell/profile-mover.ps1)
+  - Tiny script that moves the PowerShell configs into place.
 
