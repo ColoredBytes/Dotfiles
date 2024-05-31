@@ -10,13 +10,13 @@
 
  ## :bookmark_tabs: Contents
 
-### Windows
-- [Functions.ps1](/dotfiles/windows/PowerShell/Functions.ps1) | Functions for Windows.
-- [Microsoft.PowerShell_profile.ps1](/dotfiles/windows/PowerShell/Microsoft.PowerShell_profile.ps1) | Windows Powershell Profile, That I use.
-- [neovim-install.ps1](/dotfiles/windows/Neovim/neovim-install.ps1) | Neovim install script for Windows using winget.
+### [Windows](/windows/)
+- [Functions](/windows/PowerShell/Functions.ps1) | Functions for Windows.
+- [PowerShell Profile](/windows/PowerShell/Microsoft.PowerShell_profile.ps1) | Windows Powershell Profile, That I use.
+- [Neovim Install](/windows/Neovim/neovim-install.ps1) | Neovim install script for Windows using winget.
   
 
-### Linux 
-- [git_config.sh](/dotfiles/linux/git/git_config.sh) | Tiny script to easily setup `.gitconfig` file.
-- [Neovim Installer](/dotfiles/linux/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
-- [Oh-My-Posh Installer](/dotfiles/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
+### [Linux](/linux/)
+- [git_config.sh](/linux/git/git_config.sh) | Tiny script to easily setup `.gitconfig` file.
+- [Neovim Installer](/linux/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
+- [Oh-My-Posh Installer](/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
