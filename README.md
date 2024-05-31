@@ -52,6 +52,6 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
 - [PowerShell Profile](/windows/PowerShell/Microsoft.PowerShell_profile.ps1)  
   - Windows Powershell Profile, That I use.
 - [Neovim Install](/windows/Neovim/neovim-install.ps1)
-  - Neovim installs script for Windows using winget.
+  - Neovim Install script for Windows using winget.
   
 
