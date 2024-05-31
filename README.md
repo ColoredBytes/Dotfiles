@@ -31,10 +31,10 @@ find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
 - [Oh-My-Posh Installer](/linux/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
 
 ### [MacOS](/macos/)
-- [Git Config](/macos/git/git_config.sh) | Tiny script to easily set up `.gitconfig` file.
-- [Neovim Installer](/macos/neovim/neovim-install.sh) | Script to install NeoVim and copy over the NvChad config.
-- [Homebrew Install](/macos/shell/homebrew-install) | Script to install Homebrew and added the `PATH`to `.zshrc`.
-- [Oh-My-Posh Installer](/macos/shell/oh-my-posh-install.sh) | Script to install oh-my-posh and move over the config for it.
+- [Git Config](/macos/git/git_config.zsh) | Tiny script to easily set up `.gitconfig` file.
+- [Neovim Installer](/macos/neovim/neovim-install.zsh) | Script to install NeoVim and copy over the NvChad config.
+- [Homebrew Install](/macos/shell/homebrew-install.zsh) | Script to install Homebrew and added the `PATH`to `.zshrc`.
+- [Oh-My-Posh Installer](/macos/shell/oh-my-posh-install.zsh) | Script to install oh-my-posh and move over the config for it.
 
 ### [Windows](/windows/)
 - [Git Config](/windows/Git/git_config.ps1) | Tiny script to easily set up `.gitconfig` file.
