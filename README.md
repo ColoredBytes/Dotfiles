@@ -14,6 +14,7 @@
 git clone https://github.com/ColoredBytes/Dotfiles.git
 ```
 - Make scripts Executable
+  - **Linux and MacOS ONLY!**
 ```
 find /Dotfiles -type f -name "*.sh" -exec chmod +x {} \;
 find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
@@ -44,4 +45,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-also [**Here**]()
+also [**Here**](https://github.com/ColoredBytes/Dotfiles/blob/main/LICENSE)
