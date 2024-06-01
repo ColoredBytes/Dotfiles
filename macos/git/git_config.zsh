@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 # Author: Joshua Ross
-# Github: https://github.com/ross-jm
-# Purpose: Git config script for macOS using zsh
+# Github: https://github.com/ColoredBytes
+# Purpose: Git config script
 
 # Prompt for user input
 echo "Enter your Username:"
@@ -13,13 +13,14 @@ read -r git_email
 # Set Git user configuration
 git config --global user.name "$git_user"
 git config --global user.email "$git_email"
-git config --global alias.ac "commit -am"
 
-# Append core configuration to the global .gitconfig file
-cat <<'EOF' >> "$HOME/.gitconfig"
-[core]
-    eol = lf
-    autocrlf = input
-EOF
+# Set Git Aliases
+git config --global alias.ac "commit -am"
+git config --global alias.cl "clone"
+
+# Set Git Core
+git config --global core.eol lf
+git config --global core.autocrlf input
+
 
 echo "Git configuration has been updated."
