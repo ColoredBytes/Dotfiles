@@ -10,7 +10,7 @@
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # update .bashrc
-source ~/.bashrc
+exec bash
 
 # Install Homebrew's dependencies if you have sudo access:
 sudo apt-get install build-essential

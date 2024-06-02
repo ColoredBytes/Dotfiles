@@ -10,3 +10,6 @@ mkdir -p "$HOME/.config/oh-my-posh" && cp oh-my-posh/my.blue-owl.omp.json "$HOME
 
 # add oh-my-posh to PATH
 echo 'eval "$(oh-my-posh init bash --config /home/$USER/.config/oh-my-posh/my.blue-owl.omp.json)"' >> ~/.bashrc
+
+# update .bashrc
+exec bash
