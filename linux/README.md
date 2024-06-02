@@ -1,6 +1,8 @@
 
 # <div align="center"> Linux </div>
 
+- [Pop!_OS Rice](/Pop!_OS%20Rice/)
+  - Folder that contains stuff to **"rice**"** my system.
 - [Git Config](/linux/git/git_config.sh)  
   - Tiny script to easily set up `.gitconfig` file.
 - [Homebrew Install](/linux/shell/homebrew-install.sh)  
