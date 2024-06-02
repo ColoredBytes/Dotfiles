@@ -15,12 +15,25 @@ update
 sudo apt install gome-tweaks
 
 # Copy Over themes
-cp -r Dracula /usr/share/themes
-cp -r Sweet-Dark-v40 /usr/share/themes
+sudo cp -r Dracula /usr/share/themes
+sudo cp -r Sweet-Dark-v40 /usr/share/themes
 
 # Install Icons
-sudo ./Flatery/install.sh
-sudo ./McMojave-cursors/install.sh
 
-# Reboot the system
-sudo reboot
+# Change directory to Flatery directory
+cd Flatery
+
+# Run the install script without sudo
+./install.sh
+
+# Return to the previous directory
+cd ..
+
+# Change directory to McMojave-cursors directory
+cd McMojave-cursors
+
+# Run the install script without sudo
+./install.sh
+
+# Return to the previous directory
+cd ..
