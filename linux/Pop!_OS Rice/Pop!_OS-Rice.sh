@@ -10,3 +10,6 @@ cp -r Sweet-Dark-v40 /usr/share/themes
 # Install Icons
 sudo ./Flatery/install.sh
 sudo ./McMojave-cursors/install.sh
+
+# Reboot the system
+sudo reboot
