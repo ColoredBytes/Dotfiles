@@ -13,12 +13,7 @@
 ```
 git clone https://github.com/ColoredBytes/Dotfiles.git
 ```
-- Make scripts Executable
-  - **Linux and MacOS ONLY!**
-```
-find /Dotfiles -type f -name "*.sh" -exec chmod +x {} \;
-find /Dotfiles -type f -name "*.zsh" -exec chmod +x {} \;
-```
+
 
 ## :balance_scale: **LICENSE**
 
