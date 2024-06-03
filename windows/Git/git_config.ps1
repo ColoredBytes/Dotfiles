@@ -18,4 +18,4 @@ git config --global alias.cl "clone"
 git config --global core.eol lf
 git config --global core.autocrlf input
 
-Write-Output echo "Git configuration has been updated."
+Write-Output "Git configuration has been updated."
