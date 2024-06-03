@@ -2,8 +2,9 @@
 # Purpose: Git Config Script
 
 # Variables 
+$git_user = Read-Host "Enter your Name"
 $git_email = Read-Host "Enter your Email"
-$git_user = Read-Host "Enter your Username"
+
 
 
 # Set Git user configuration

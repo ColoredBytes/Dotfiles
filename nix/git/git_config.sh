@@ -4,7 +4,7 @@
 # Purpose: Git config script
 
 # Prompt for user input
-echo "Enter your Username:"
+echo "Enter your Name:"
 read -r git_user
 
 echo "Enter your Email:"
