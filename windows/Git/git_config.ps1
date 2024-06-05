@@ -1,4 +1,5 @@
 # Author: Joshua Ross
+# Github: https://github.com/ColoredBytes
 # Purpose: Git Config Script
 
 # Variables 
