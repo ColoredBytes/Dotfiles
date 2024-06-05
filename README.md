@@ -8,5 +8,4 @@ My personal dotfiles (Windows + Ubuntu)
 - [ms](./ms/) Windows related stuff (terminal, winget)
 - [neovim](./neovim/): neovim install scripts.
 - [oh-my-posh](./oh-my-posh/): oh-my-posh themes and scripts
-- [shell](./shell/): My VSCode configuration files
 - [Pop!_OS Rice](./Pop!_OS%20Rice/) Customizations for Pop!_OS. 
