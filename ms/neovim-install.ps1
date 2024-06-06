@@ -1,23 +1,29 @@
 # Author: Joshua Ross
-# Purpose: Neovim install script.
+# Purpose: Neovim install script
 
 # Variables
 $REPO = "https://github.com/ColoredBytes/NvChad-v2-config.git"
-$PATH = "$env:LOCALAPPDATA\nvim"
+$INSTALL_PATH = "$env:LOCALAPPDATA\nvim"
 
-# Install dependencies
-$packages = @(
-    "BurntSushi.ripgrep.MSVC",
-    "sharkdp.fd",
-    "JesseDuffield.lazygit",
-    "Neovim.Neovim",
-    "zig.zig"
-)
+# Install dependencies from JSON file
+winget import --import-file ".\assets\neovimreq.json"
 
-# Loop through the array and install each package
-foreach ($package in $packages) {
-    winget install $package -e
+# Check if Git is installed
+if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
+    Write-Error "Git is not installed. Please install Git and try again."
+    exit 1
 }
 
-# Clone Git REPO 
-git clone $REPO $PATH
+# Clone Git repository
+if (Test-Path $INSTALL_PATH) {
+    Write-Output "Removing existing installation at $INSTALL_PATH"
+    Remove-Item -Recurse -Force $INSTALL_PATH
+}
+
+git clone $REPO $INSTALL_PATH
+
+if ($?) {
+    Write-Output "Neovim configuration cloned successfully to $INSTALL_PATH"
+} else {
+    Write-Error "Failed to clone the repository."
+}
