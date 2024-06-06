@@ -2,8 +2,8 @@
 # Purpose: Neovim install script.
 
 # Variables
-$repo = "https://github.com/ColoredBytes/NvChad-v2-config.git"
-$path = "$env:LOCALAPPDATA\nvim"
+$REPO = "https://github.com/ColoredBytes/NvChad-v2-config.git"
+$PATH = "$env:LOCALAPPDATA\nvim"
 
 # Install dependencies
 $packages = @(
@@ -19,5 +19,5 @@ foreach ($package in $packages) {
     winget install $package -e
 }
 
-# Clone Git Repo 
-git clone $repo $path
+# Clone Git REPO 
+git clone $REPO $PATH

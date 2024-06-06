@@ -3,7 +3,7 @@
 # Purpose: Neovim Install Script
 
 # Variables
-repo="https://github.com/ColoredBytes/NvChad-v2-config.git"
+REPO="https://github.com/ColoredBytes/NvChad-v2-config.git"
 
 
 # Function to install packages using homebrew
@@ -35,21 +35,21 @@ install_packages "${packages[@]}" || {
 	exit 1
 }
 
-# Clone Git Repo for imported Lazvy.Vim Config
-git clone $repo ~/.config/nvim || {
-	echo "Failed to clone nvim repository"
+# Clone Git REPO for imported Lazvy.Vim Config
+git clone $REPO ~/.config/nvim || {
+	echo "Failed to clone nvim REPOsitory"
 	exit 1
 }
 
 # Verify if the clone operation was successful
 if [ -d ~/.config/nvim/.git ]; then
-	# Remove the .git folder, so you can add it to your own repo later
+	# Remove the .git folder, so you can add it to your own REPO later
 	rm -rf ~/.config/nvim/.git || {
 		echo "Failed to remove .git folder"
 		exit 1
 	}
 else
-	echo "Cloning nvim repository failed"
+	echo "Cloning nvim REPOsitory failed"
 	exit 1
 fi
 
