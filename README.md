@@ -8,7 +8,7 @@ My personal dotfiles (Windows + Ubuntu)
 - [ms](./ms/): Windows related stuff (terminal, winget)
 - [nix](./nix/): MacOS and Linux related scripts.
 - [Pop!_OS](./pop-os/): Customizations for Pop!_OS.
-- [Firefox Extensions](./firefox-extensions): Firefox extensions that I use
+- [Firefox Extensions](firefox-extensions.md): Firefox extensions that I use
 
 ## :scroll: Scripts
 - [install.ps1](install.ps1): windows dotfiles install script.
