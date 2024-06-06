@@ -12,3 +12,4 @@ My personal dotfiles (Windows + Ubuntu)
 ## :scroll: Scripts
 - [install.ps1](install.ps1): windows dotfiles install script.
 - [install.sh](install.sh): nix dotfiles install script.
+- [popos-rice](popos-rice.sh): script to install the themes for my **Pop!_OS** installs.
