@@ -13,6 +13,7 @@ git config --global user.email "$git_email"
 
 
 # Set Git Aliases
+git config --global alias.a "add"
 git config --global alias.cl "clone"
 git config --global alias.pl "pull"
 git config --global alias.ph "push"
