@@ -3,7 +3,8 @@
 My personal dotfiles (Windows + Ubuntu)
 
 ## :link: Structure
-- [assets](./assets/): folder that holds configs and themes. 
+- [assets](./assets/): folder that holds configs and themes.
+- [autohotkey](./autohotkey/): folder that contains autohotkey scripts.
 - [git](./git/): git scripts to setup `.gitconfig`
 - [ms](./ms/): Windows related stuff (terminal, winget)
 - [nix](./nix/): MacOS and Linux related scripts.
