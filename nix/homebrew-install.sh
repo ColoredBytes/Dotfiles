@@ -13,7 +13,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 exec bash
 
 # Install Homebrew's dependencies if you have sudo access:
-sudo apt-get install build-essential
+sudo apt install build-essential
 
 # install gcc
 brew install gcc
