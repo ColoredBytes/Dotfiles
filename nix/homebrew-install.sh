@@ -9,11 +9,11 @@
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# update .bashrc
-exec bash
-
 # Install Homebrew's dependencies if you have sudo access:
 sudo apt install build-essential
+
+# update .bashrc
+exec bash
 
 # install gcc
 brew install gcc
