@@ -2,7 +2,7 @@
 # Purpose: Neovim install script
 
 # Variables
-$REPO = "https://github.com/ColoredBytes/NvChad-v2-config.git"
+$REPO = "https://github.com/ColoredBytes/LazyConfig.git"
 $INSTALL_PATH = "$env:LOCALAPPDATA\nvim"
 
 # Install dependencies from JSON file
