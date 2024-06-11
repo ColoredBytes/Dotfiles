@@ -2,7 +2,7 @@
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
 # Env
-$omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
+$omp_config = Join-Path $PSScriptRoot ".\themes\pwsh.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 Invoke-Expression (& { (zoxide init powershell | Out-String) }) 
 Import-Module -Name Terminal-Icons
