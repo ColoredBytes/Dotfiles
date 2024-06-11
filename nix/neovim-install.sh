@@ -3,7 +3,7 @@
 # Purpose: Neovim Install Script
 
 # Variables
-REPO="https://github.com/ColoredBytes/NvChad-v2-config.git"
+REPO="https://github.com/ColoredBytes/LazyConfig.git"
 
 
 # Function to install packages using homebrew

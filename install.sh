@@ -6,9 +6,8 @@
 # Configure Git
 bash git-config/git-config.sh
 
-# Install homebrew
+# # Install homebrew
 bash nix/homebrew-install.sh
-
 
 # Setup oh-my-posh
 bash nix/oh-my-posh-install.sh
