@@ -2,7 +2,6 @@
 # Purpose: Neovim install script
 
 # Variables
-<<<<<<< HEAD
 $REPO = "https://github.com/ColoredBytes/NvChad-v2-config.git"
 $INSTALL_PATH = "$env:USERPROFILE\.config\"
 $PROFILEPATH = $PROFILE.CurrentUserAllHosts
@@ -23,10 +22,6 @@ if (-not (Test-Path "${ENV:USERPROFILE}\.local\state")) {
 }
 $env:XDG_STATE_HOME = "${ENV:USERPROFILE}\.local\state"
 '@
-=======
-$REPO = "https://github.com/ColoredBytes/LazyConfig.git"
-$INSTALL_PATH = "$env:LOCALAPPDATA\nvim"
->>>>>>> 3fbb431c86ec8917ce23e2a0effcd8f1771c7ff7
 
 # Install dependencies from JSON file
 winget import --import-file ".\assets\neovimreq.json"
@@ -50,4 +45,4 @@ if ($?) {
 Add-Content -Path $PROFILEPATH -Value $SETUPCOMMANDS
 
 # Load the new profile
-. $profilePath
+. $PROFILEPATH
