@@ -1,6 +1,6 @@
 # :computer: dotfiles
 
-My personal dotfiles (Windows + Ubuntu)
+My personal dotfiles (Windows + Ubuntu + WSL)
 
 ## :link: Structure
 - [assets](./assets/): folder that holds configs and themes.
