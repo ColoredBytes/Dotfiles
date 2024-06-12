@@ -8,10 +8,9 @@ My personal dotfiles (Windows + Ubuntu + WSL)
 - [git](./git/): git scripts to setup `.gitconfig`
 - [ms](./ms/): Windows related stuff (terminal, winget)
 - [nix](./nix/): MacOS and Linux related scripts.
-- [Pop!_OS](./pop-os/): Customizations for Pop!_OS.
 - [Firefox Extensions](./assets/firefox-extensions.md): Firefox extensions that I use
 
 ## :scroll: Scripts
 - [install.ps1](install.ps1): windows dotfiles install script.
 - [install.sh](install.sh): nix dotfiles install script.
-- [popos-rice](popos-rice.sh): script to install the themes for my **Pop!_OS** installs.
+
