@@ -2,6 +2,9 @@
 # Github: https://github.com/ColoredBytes
 # Purpose: ms dotfiles setup script
 
+# Install Winget
+powershell.exe -ExecutionPolicy Bypass -File ".\ms\Install-WinGet.ps1"
+
 # Configure Git
 powershell.exe -ExecutionPolicy Bypass -File ".\git\git-config.ps1"
 
