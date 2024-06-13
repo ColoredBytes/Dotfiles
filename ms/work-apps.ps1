@@ -1,0 +1,1 @@
+winget install --id=KeePassXCTeam.KeePassXC -e  ; winget install --id=Microsoft.VisualStudioCode -e  ; winget install --id=charmbracelet.glow -e  ; winget install --id=Obsidian.Obsidian -e  ; winget install --id=Git.Git -e 
