@@ -1,0 +1,15 @@
+[user]
+        name = Joshua Ross
+        email = 35482886+ColoredBytes@users.noreply.github.com
+[alias]
+        ac = commit -am
+        cl = clone
+        s = status
+        co = checkout
+        cob = checkout -b
+        pl = pull
+        ph = push
+        a  = add
+[core]
+        eol = lf
+        autocrlf = input
