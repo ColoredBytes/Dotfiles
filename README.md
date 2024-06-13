@@ -3,13 +3,13 @@
 My personal dotfiles (Windows + Ubuntu + WSL)
 
 ## :link: Structure
-- [assets](./assets/): folder that holds configs and themes.
 - [autohotkey](./autohotkey/): folder that contains autohotkey scripts.
-- [VSCode](./vscode/): My VSCode configuration files
 - [git](./git/): git scripts to setup `.gitconfig`
 - [ms](./ms/): Windows related stuff (terminal, winget)
+- [neovim](./neovim/):scripts to install my neovim setup.
+- [vscode](./vscode/): My VSCode configuration files
 - [nix](./nix/): MacOS and Linux related scripts.
-- [Firefox Extensions](./assets/firefox-extensions.md): Firefox extensions that I use
+- [Firefox Extensions](./firefox-extensions.md): Firefox extensions that I use
 
 ## :scroll: Scripts
 - [install.ps1](install.ps1): windows dotfiles install script.

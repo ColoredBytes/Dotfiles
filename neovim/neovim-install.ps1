@@ -24,7 +24,7 @@ $env:XDG_STATE_HOME = "${ENV:USERPROFILE}\.local\state"
 '@
 
 # Install dependencies from JSON file
-winget import --import-file ".\assets\neovimreq.json"
+winget import --import-file "neovim/neovimreq.json"
 
 # Check if Git is installed
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
