@@ -21,5 +21,5 @@ SwitchToVSCode() {
   }
 }
 
-; Hotkey to use Ctrl+Alt+C to launch/restore the Windows Terminal.
-^!c::SwitchToVSCode()
+; Hotkey to use Ctrl+Alt+V to launch/restore the Windows Terminal.
+^!v::SwitchToVSCode()
