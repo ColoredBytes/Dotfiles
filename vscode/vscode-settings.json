@@ -1,0 +1,56 @@
+{
+    "window.commandCenter": true,
+    "window.titleBarStyle": "custom",
+    "remote.SSH.remotePlatform": {"proxmox.int.jersh.tech":"linux","pihosted":"linux","jts-awx":"linux","dash.jersh.local":"linux","dash":"linux","docker":"linux","pve1":"linux","pi-hole":"linux","pve2":"linux","dockge":"linux","coder-vscode--ColoredBytes--ColoredBytes-DEV":"linux"},
+    
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.startupEditor": "none",
+    "files.eol": "\n",
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.automationProfile.osx":{
+
+     },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ],
+    "grammarly.files.exclude": [
+        "test*.md"
+    ],
+    "editor.cursorBlinking": "expand",
+    "editor.fontLigatures": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.omittedFromToc": {
+
+
+
+         
+
+        
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "markdown.extension.toc.levels": "2..6",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "codesnap.transparentBackground": true,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "vscode-add-signature.signatureText": "#!/usr/bin/env\\n # Author Joshua Ross\\n# Purpose:\\n# created on ${MM-DD-YYYY}\\n######################",
+    "vscode-add-signature.enableAddSignature": true,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
+    "remote.SSH.connectTimeout": 1800,
+    "update.showReleaseNotes": false,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.colorTheme": "Ayu Dark Bordered"
+}

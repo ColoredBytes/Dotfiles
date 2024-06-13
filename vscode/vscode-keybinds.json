@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+numpad_divide",
+        "command": "markdown.extension.toc.create"
+    },
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "markdown.extension.toc.update"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.transformToLowercase"
+    }
+]
