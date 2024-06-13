@@ -5,6 +5,7 @@ My personal dotfiles (Windows + Ubuntu + WSL)
 ## :link: Structure
 - [assets](./assets/): folder that holds configs and themes.
 - [autohotkey](./autohotkey/): folder that contains autohotkey scripts.
+- [VSCode](./vscode/): My VSCode configuration files
 - [git](./git/): git scripts to setup `.gitconfig`
 - [ms](./ms/): Windows related stuff (terminal, winget)
 - [nix](./nix/): MacOS and Linux related scripts.
