@@ -1,0 +1,6 @@
+[wsl2]
+memory = 8G
+
+[experimental]
+autoMemoryReclaim = gradual
+sparseVhd = true
