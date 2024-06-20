@@ -1,6 +1,10 @@
 # **as root**
 
+<details>
+<summary> Click Here </summary>
+
 - **for ubuntu**
+
 ```bash
 touch /usr/local/bin/update && chmod +x /usr/local/bin/update
 cat <<EOF >/usr/local/bin/update
@@ -15,8 +19,12 @@ cat <<EOF >/usr/local/bin/update
 sudo dnf update -y
 EOF
 ```
+</details>
 
 # **as user**
+
+<details>
+<summary> Click Here </summary>
 
 - homebrew
 
@@ -44,4 +52,4 @@ if [ -e $HOME/.bash_functions ]; then
     source $HOME/.bash_functions
 fi
 ```
-
+</details>
