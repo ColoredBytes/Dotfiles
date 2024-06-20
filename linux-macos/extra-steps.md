@@ -1,4 +1,6 @@
-# **as root**
+# **Some useful things to add.**
+
+## **as root**
 
 <details>
 <summary> Click Here </summary>
@@ -21,7 +23,7 @@ EOF
 ```
 </details>
 
-# **as user**
+## **as user**
 
 <details>
 <summary> Click Here </summary>
