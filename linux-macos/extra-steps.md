@@ -43,7 +43,7 @@ eval "$(oh-my-posh init bash --config "$POSH_PATH/my.blue-owl.omp.json")"
 ```
 
 
-- load .bash_aliases and .bash_functions (goes into .bashrc)
+- **.bashrc changes**
 ```bash
 # load .bash_aliases and .bash_functions
 if [ -e $HOME/.bash_aliases ]; then
@@ -52,6 +52,16 @@ fi
 
 if [ -e $HOME/.bash_functions ]; then
     source $HOME/.bash_functions
-fi
+fi 
+
+### Extras ###
+
+# homebrew
+export HOMEBREW_NO_ENV_HINTS=true
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# oh-my-posh
+export POSH_PATH="/$HOME/.config/posh-themes"
+eval "$(oh-my-posh init bash --config "$POSH_PATH/my.blue-owl.omp.json")"
 ```
 </details>
